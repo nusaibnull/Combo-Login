@@ -33,8 +33,8 @@ auto-login-multi-tabs/
 
 ### **১. রিপোজিটরি ক্লোন করো**
 ```bash
-git clone https://github.com/username/auto-login-multi-tabs.git
-cd auto-login-multi-tabs
+git clone https://github.com/nusaibnull/Combo-Login.git
+cd Combo-Login
 ```
 
 ### **২. combo.txt তৈরি করো**
@@ -47,7 +47,7 @@ user3@example.com:abc@123
 ```
 
 ### **৩. ব্রাউজারে স্ক্রিপ্ট রান করো**
-1. `auto-login.js` ফাইলের পুরো কোড কপি করো।
+1. `tab_console.js` ফাইলের পুরো কোড কপি করো।
 2. যেকোনো ব্রাউজারে **Developer Tools (F12)** ওপেন করো।
 3. **Console Tab**-এ কোডটা পেস্ট করো।
 4. `combo.txt` সিলেক্ট করো।
@@ -57,10 +57,10 @@ user3@example.com:abc@123
 
 ## ⚙️ Configuration
 
-`auto-login.js` এর শুরুতে কনফিগারেশনগুলো পরিবর্তন করা যাবে:
+`tab_console.js` এর শুরুতে কনফিগারেশনগুলো পরিবর্তন করা যাবে:
 
 ```js
-const LOGIN_URL   = "https://mytempsms.com/login"; // লগইন পেজের URL
+const LOGIN_URL   = ""; // লগইন পেজের URL
 const EMAIL_ID    = "email";     // ইমেইল ইনপুট ID বা Name
 const PASS_ID     = "password";  // পাসওয়ার্ড ইনপুট ID বা Name
 const OPEN_GAP_MS = 1000;        // ট্যাব ওপেনের মাঝে গ্যাপ (ms)
@@ -104,5 +104,3 @@ const MAX_TABS    = 30;          // সর্বাধিক ট্যাব স
 ## 👨‍💻 Author
 
 **nullBrainBD**   
-🔗 GitHub: [https://github.com/username](https://github.com/username)  
-📧 Email: your-email@example.com
